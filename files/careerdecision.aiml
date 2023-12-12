@@ -1,4 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+    <!-- Welcome message -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! I'm your career advisor chatbot. Let's find the perfect career for you. What's your name?</template>
+    </category>
+    
+    <!-- First question -->
+    <category>
+        <pattern>WHAT ARE YOU MORE INTERESTED IN?</pattern>
+        <template>
+            <think>
+                <set name="interest"/>
+            </think>
+            Are you interested in working with cutting-edge technology (1) or making a positive impact on society (2)?
+        </template>
+    </category>
+    
+    <!-- Second question -->
+    <category>
+        <pattern>1</pattern>
+        <template>
+            <think>
+                <set name="interest">cutting-edge technology</set>
+            </think>
+            Great choice! Do you prefer working on software development (A), data science (B), or cybersecurity (C)?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>2</pattern>
+        <template>
+            <think>
+                <set name="interest">positive impact on society</set>
+            </think>
+            Fantastic! Do you see yourself in social impact data analysis (A) or environmental sustainability (B)?
+        </template>
+    </category>
+    
+    <!-- Third question -->
+    <category>
+        <pattern>A</pattern>
+        <template>
+            <think>
+                <set name="career">software development</set>
+            </think>
+            You're on your way to becoming a skilled software developer! Learn more about it 
+            <button>
+                <text>here.</text>
+                <url>https://www.udemy.com/course/software-development-from-a-to-z/</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>B</pattern>
+        <template>
+            <think>
+                <set name="career">data science</set>
+            </think>
+            You're destined for data science greatness! Learn more about it 
+            <button>
+                <text>here.</text>
+                <url>https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>C</pattern>
+        <template>
+            <think>
+                <set name="career">cybersecurity</set>
+            </think>
+            Cybersecurity is calling your name! Learn more about it 
+            <button>
+                <text>here.</text>
+                <url>https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/</url>
+            </button>
+        </template>
+    </category>
+    
+    <!-- Fourth question -->
+    <category>
+        <pattern>cutting-edge technology</pattern>
+        <template>
+            Excellent! Do you prefer the excitement of ethical hacking (A) or the challenges of artificial intelligence (B)?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>positive impact on society</pattern>
+        <template>
+            Outstanding! Do you see yourself in social impact data analysis (A) or environmental sustainability (B)?
+        </template>
+    </category>
+    
+    <!-- Fifth question -->
+    <category>
+        <pattern>A</pattern>
+        <template>
+            <think>
+                <set name="career">ethical hacking</set>
+            </think>
+            You're destined to be an ethical hacker! Learn more about it 
+            <button>
+                <text>here.</text>
+                <url>https://www.udemy.com/course/learn-ethical-hacking-from-scratch/</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>B</pattern>
+        <template>
+            <think>
+                <set name="career">artificial intelligence</set>
+            </think>
+            You're on your way to mastering artificial intelligence! Learn more about it
+            <button>
+                <text>here.</text>
+                <url>https://www.udemy.com/course/machinelearning/</url>
+            </button>
+        </template>
+    </category>
+
+
 </aiml>
