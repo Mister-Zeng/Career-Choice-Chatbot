@@ -2,6 +2,6 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>I have no answer for that. Type "Start" to begin.</template>
   </category>
 </aiml>
