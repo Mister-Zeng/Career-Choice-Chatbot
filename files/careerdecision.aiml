@@ -67,63 +67,68 @@
             </reply>
             <reply>
                 <text>Environmental Sustainability</text>
-                <postback>ENVIRONMENTAL SUSTAINABILITY</postback>
+                <postback>ARTIFICIAL INTELLIGENCE</postback>
             </reply>
         </template>
 
     </category>
     
+    <!-- Software Development -->
    <category>
        <pattern>SOFTWARE DEVELOPMENT</pattern>
        <template>
-           You're on your way to becoming a skilled software developer! Here is a course to learn more about it 
+           You're on your way to becoming a skilled software developer! Learn more about it 
             <link>
                 <text>here.</text>
-                <url>https://www.udemy.com/course/software-development-from-a-to-z/</url>
+                <url>https://www.coursera.org/articles/how-to-become-a-software-developer/</url>
             </link>
        </template>
    </category>
 
+    <!-- Data Science -->
     <category>
         <pattern>DATA SCIENCE</pattern>
         <template>
-            You're destined for data science greatness! Here is a course to learn more about it 
+            You're destined for data science greatness! Learn more about it 
             <link>
                 <text>here.</text>
-                <url>https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/</url>
+                <url>https://www.coursera.org/articles/what-is-data-science</url>
             </link>
         </template>
     </category>
     
+    <!-- Cybersecurity -->
     <category>
         <pattern>CYBERSECURITY</pattern>
         <template>
-            Cybersecurity is calling your name! Here is a course to learn more about it 
+            Cybersecurity is calling your name! Learn more about it 
             <link>
                 <text>here.</text>
-                <url>https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/</url>
+                <url>https://www.coursera.org/articles/what-is-cyber-security</url>
             </link>
         </template>
     </category>
     
+    <!-- Data Analysis -->
     <category>
         <pattern>DATA ANALYSIS</pattern>
         <template>
-            You're destined to be an data analysis! Here is a course to learn more about it
+            You're destined to be an data analysis! Learn more about it
             <link>
                 <text>here.</text>
-                <url>https://www.udemy.com/course/learn-ethical-hacking-from-scratch/</url>
+                <url>https://www.coursera.org/articles/what-is-data-analysis-with-examples</url>
             </link>
         </template>
     </category>
     
+    <!-- Artificial Intelligence -->
     <category>
-        <pattern>ENVIRONMENTAL SUSTAINABILITY</pattern>
+        <pattern>ARTIFICIAL INTELLIGENCE</pattern>
         <template>
-            You're on your way to mastering artificial intelligence! Here is a course to learn more about it 
+            You're on your way to mastering artificial intelligence! Learn more about it 
             <link>
                 <text>here.</text>
-                <url>https://www.udemy.com/course/machinelearning/</url>
+                <url>https://www.coursera.org/articles/what-is-artificial-intelligence</url>
             </link>
         </template>
     </category>
